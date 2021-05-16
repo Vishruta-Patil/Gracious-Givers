@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gracious Givers</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />   
+    <link rel="stylesheet" href="'https://pro.fontawesome.com/releases/v5.10.0/css/all.css',">    
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-md sticky-top">  
+        <div class="container-fluid">  
+           <div class="icon" ><img src="images/logo_icon.PNG" alt=""></div>   
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav">  
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span></button>  
+              
+                <div class="collapse navbar-collapse" id="mynav">  
+                <ul class="navbar-nav ms-auto">  
+                   <li class="nav-item active" >                       
+                    <a  class="nav-link" href="/">Home</a>  
+                    </li>  
+                    <li class="nav-item " >                       
+                    <a  class="nav-link" href="aboutUs.ejs">About Us</a>  
+                    </li>  
+                    <li class="nav-item" >                    
+                    <a  class="nav-link" href="contactUs.ejs">Contact Us</a>  
+                    </li>  
+                    <li class="nav-item" >                    
+                    <a  class="nav-link" href="index.ejs#services">Service</a>  
+                    </li>  
+                    <li class="nav-item" >                       
+                      <p><a href="Donate.ejs" class="btn btn-danger btn-md active" role="button">Donate</a></p>
+                    </li>  
+                </ul>  
+            </div>
+        </div>
+    </nav> 
+
+    <script>
+        document.querySelector(".navbar-toggler").addEventListener("click", function(e){ document.querySelector("#mynav").classList.toggle("show"); }); 
+    </script>     
+    </body>
+</html>
