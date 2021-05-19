@@ -9,9 +9,27 @@ body{
 
 .carousel-caption{
     top:10px;
-    bottom: 220px;  
-    left:-826px; 
+    bottom: 220px;     
 }
+
+@media (min-width:1322px) {
+  .carousel-caption{
+  left:-826px; 
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width:1321px) { 
+  .carousel-caption{
+  left:-625px; 
+  }
+}
+
+@media (max-width: 768px) {
+.d-md-block {
+    display: block!important;
+}
+}
+
 
 .carousel-caption h5{
     font-size: 40px;
@@ -82,9 +100,15 @@ body{
 
 .navbar-toggler {
   background-color: orangered;
-  margin-right: 10px;
-  
+  margin-right: 10px; 
 }
+
+@media (max-width: 885px) {
+  .navbar-nav a {
+    font-size: 14px;
+  }
+}
+
 
 .sliding-image {
     height:80vh; 
@@ -344,7 +368,8 @@ body{
 {
   .site-footer [class^=col-]
   {
-    margin-bottom:30px
+    margin-bottom:30px;
+    text-align:center
   }
 }
 
